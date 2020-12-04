@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    
+}
+.column1{
+    float: left;
+    width: 20%;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+img{
+    width: 250px;
+    height: 250px;
+    width: 300px;
+    border: 15px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+h1, h4{
+    text-align: left;
+    color: blue;
+}
+.column2{
+    float: right;
+    width: 70%;
+    padding: 10px;
+}
+.box{
+    width: 300px;
+    border: 15px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+span{
+    color: green;
+}
